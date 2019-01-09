@@ -2,6 +2,7 @@
 
 We're using [Jasmine] for defining tests.  The gulp script builds and runs these tests (which is also run from the main `mvn` build).
 
+TODO: aakoch - this is incorrect. I got an error when trying to run `gulp watch`: `Task 'watch' is not in your gulpfile`
 The easiest dev Pipeline regarding building and running tests is to run the gulp `watch` task from `ui` folder.
 
 ```
